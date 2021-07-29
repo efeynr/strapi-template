@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/friends-clients",
+      "handler": "friends-clients.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/friends-clients/count",
+      "handler": "friends-clients.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/friends-clients/:id",
+      "handler": "friends-clients.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/friends-clients",
+      "handler": "friends-clients.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/friends-clients/:id",
+      "handler": "friends-clients.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/friends-clients/:id",
+      "handler": "friends-clients.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

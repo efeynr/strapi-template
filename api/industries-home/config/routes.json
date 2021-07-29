@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/industries-homes",
+      "handler": "industries-home.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/industries-homes/count",
+      "handler": "industries-home.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/industries-homes/:id",
+      "handler": "industries-home.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/industries-homes",
+      "handler": "industries-home.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/industries-homes/:id",
+      "handler": "industries-home.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/industries-homes/:id",
+      "handler": "industries-home.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/orange-boxes",
+      "handler": "orange-box.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orange-boxes/count",
+      "handler": "orange-box.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orange-boxes/:id",
+      "handler": "orange-box.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/orange-boxes",
+      "handler": "orange-box.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/orange-boxes/:id",
+      "handler": "orange-box.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/orange-boxes/:id",
+      "handler": "orange-box.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

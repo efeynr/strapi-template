@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_homes",
+  "info": {
+    "name": "ServicesHome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta.metadata"
+    }
+  }
+}

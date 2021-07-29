@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orange_boxes",
+  "info": {
+    "name": "OrangeBox"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta.metadata"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "friends_clients_homes",
+  "info": {
+    "name": "FriendsClientsHome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta.metadata"
+    }
+  }
+}

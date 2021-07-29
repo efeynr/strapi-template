@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/friends-clients-homes",
+      "handler": "friends-clients-home.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/friends-clients-homes/count",
+      "handler": "friends-clients-home.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/friends-clients-homes/:id",
+      "handler": "friends-clients-home.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/friends-clients-homes",
+      "handler": "friends-clients-home.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/friends-clients-homes/:id",
+      "handler": "friends-clients-home.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/friends-clients-homes/:id",
+      "handler": "friends-clients-home.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
